@@ -1,18 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace TestWorkForAlgoTecture.Parser
 {
-    [Serializable]
     public class ProductOccurence
     {
-        public string Id;
+        public string Id { get; set; }
 
-        public string Name;
+        public string Name { get; set; }
 
-        public IEnumerable<Prop> Props;
+        public IEnumerable<Prop> Props { get; set; }
     }
 }

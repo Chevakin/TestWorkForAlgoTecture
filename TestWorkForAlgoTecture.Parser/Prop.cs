@@ -5,10 +5,10 @@ namespace TestWorkForAlgoTecture.Parser
     [Serializable]
     public class Prop
     {
-        public string Name;
+        public string Name { get; set; }
 
-        public string Type;
+        public string Type { get; set; }
 
-        public string Value;
+        public string Value { get; set; }
     }
 }
